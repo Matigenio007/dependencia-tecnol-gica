@@ -1,0 +1,93 @@
+body {
+    font-family: Arial,  sans-serif; /* Familia de fuentes */
+    font-size: 16px; /* El tamaño de la fuente principal en el tag <p></p> */
+    background-color: #a5e8f7; /* El color del fondo de la página web */
+    color: #333333; /* El color del texto*/ 
+}
+
+h1 {
+    color: #f90000; /* El color de la cabecera */
+    font-size: 28px; /* El tamaño de la fuente de la cabecera */
+    font-family: Georgia, serif; /* La familia tipográfica utilizada en la cabecera */
+    text-align: center
+}
+h2 {
+    color: #f90000; /* El color de la cabecera */
+    font-size: 28px; /* El tamaño de la fuente de la cabecera */
+    font-family: Georgia, serif; /* La familia tipográfica utilizada en la cabecera */
+    }
+p {
+    color: #5614d9; /* parrafos */
+    font-size: 14px; /* El tamaño */
+    font-family: Verdana, sans-serif; /* La familia tipográfica utilizada en la cabecera */
+    text-align: justify
+}
+
+@keyframes color-change {
+    0% {
+      color: red
+    }
+    
+    25% {
+        color: crimson
+    }
+    50% {
+      color: blue
+    }
+
+    75% {
+        color: rgb(127, 225, 255)
+    }
+    100% {
+      color: red
+    }
+}
+
+h1:hover {
+    animation: color-change 3s infinite;
+}
+
+@keyframes color-change {
+    0% {
+      color: red
+    }
+    
+    25% {
+        color: crimson
+    }
+    50% {
+      color: blue
+    }
+
+    75% {
+        color: rgb(127, 225, 255)
+    }
+    100% {
+      color: red
+    }
+}
+
+h2:hover {
+    animation: color-change 3s infinite;
+}
+
+@keyframes color-change {
+    0% {
+      color: red
+    }
+    
+    25% {
+        color: crimson
+    }
+    50% {
+      color: crimson
+    }
+
+    100% {
+      color: red
+    }
+}
+
+li:hover {
+    animation: color-change 3s infinite;
+}
